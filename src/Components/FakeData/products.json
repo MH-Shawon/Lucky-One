@@ -1,0 +1,79 @@
+[
+    {
+        "id": "1",
+        "name": "DSC-Bat",
+        "price": 420,
+        "img": "https://i.ibb.co/sRK5QwN/DSC-Bat.jpg"
+        
+      },
+    {
+        "id": "2",
+        "name": "SG-Bat",
+        "price": 720,
+        "img": "https://i.ibb.co/52mH27T/SG-Bat.jpg"
+        
+      },
+    {
+        "id": "3",
+        "name": "MRF-Bat",
+        "price": 560,
+        "img": "https://i.ibb.co/F3JRNP8/MRF.jpg"
+        
+      },
+    {
+        "id": "4",
+        "name": "CA-Bat",
+        "price": 770,
+        "img": "https://i.ibb.co/0ZvZ5gf/CA-Bat.jpg"
+        
+      },
+    {
+        "id": "5",
+        "name": "SF-Bat",
+        "price": 880,
+        "img": "https://i.ibb.co/N9hkD71/SF-bat.jpg"
+        
+      },
+    {
+        "id": "6",
+        "name": "SS-Bat",
+        "price": 300,
+        "img": "https://i.ibb.co/tPQ8chx/SS-Bat.jpg"
+        
+      },
+    {
+        "id": "7",
+        "name": "KOOKABURA-Bat",
+        "price": 900,
+        "img": "https://i.ibb.co/6gFZ8kK/kookabura-Bat.jpg"
+        
+      },
+    {
+        "id": "8",
+        "name": "ODI-Ball",
+        "price": 20,
+        "img": "https://i.ibb.co/dpdfHxt/ODI-Ball.jpg"
+        
+      },
+    {
+        "id": "9",
+        "name": "GLOVES",
+        "price": 120,
+        "img": "https://i.ibb.co/VwmyG4Q/keeping-Gloves.jpg"
+        
+      },
+    {
+        "id": "10",
+        "name": "STAMP",
+        "price": 290,
+        "img": "https://i.ibb.co/pv0f7cV/Stamp.jpg"
+        
+      },
+    {
+        "id": "11",
+        "name": "PAD",
+        "price": 555,
+        "img": "https://i.ibb.co/jvKpTcF/Pad.jpg"
+        
+      }
+]
