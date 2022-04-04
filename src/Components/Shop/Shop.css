@@ -17,3 +17,30 @@
     border: 4px solid grey;
     border-radius: 16px;
 }
+
+.ques-section{
+    display: flex;
+    padding-top: 24px;
+    text-align: center;
+}
+
+.question-part1{
+    text-align: center;
+    margin-left: 50px;
+    
+    width: 50%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 8px;
+     background-color: rgb(176, 198, 238);
+}
+.question-part2{
+    text-align: center;
+    margin-left: 50px;
+    
+    width: 50%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 8px;
+     background-color: rgb(176, 198, 238);
+}

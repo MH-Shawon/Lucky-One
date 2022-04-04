@@ -11,7 +11,7 @@ import { useState } from 'react';
         const [cart, setCart] = useState([])
    const product = FakeData;
    const handleAddToCart = (product) =>{
-     console.log(product)
+     
      const newCart = [...cart, product];
      setCart(newCart);
    }
@@ -33,6 +33,19 @@ import { useState } from 'react';
             </div>
             <div className='cart-container'> 
            <Cart cart = {cart}></Cart>
+            </div>
+            <div className='ques-section'>
+                
+            <div className='question-part1'> <h4>Ques:1</h4>
+                <h5>How Reacts Works?</h5>
+                <p>Ans:<br />
+                1.</p>
+            </div>
+            <div className='question-part2'> <h4>Ques:2</h4>
+                <h5>Props Vs State</h5>
+                <p>Ans:<br />
+                1.</p>
+            </div>
             </div>
         </div>
         </div>
