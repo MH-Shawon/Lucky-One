@@ -13,7 +13,7 @@ import { useState } from 'react';
    const handleAddToCart = (product) =>{
      console.log(product)
      const newCart = [...cart, product];
-     setCart(newCart)
+     setCart(newCart);
    }
     return (
         <div>
@@ -32,9 +32,7 @@ import { useState } from 'react';
                }
             </div>
             <div className='cart-container'> 
-           <Cart>
-               
-           </Cart>
+           <Cart cart = {cart}></Cart>
             </div>
         </div>
         </div>
