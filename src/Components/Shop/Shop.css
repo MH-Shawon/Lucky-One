@@ -34,6 +34,10 @@
     border-radius: 8px;
      background-color: rgb(176, 198, 238);
 }
+.question-part1 p{
+    text-align: start;
+    padding: 4px;
+}
 .question-part2{
     text-align: center;
     margin-left: 50px;
@@ -43,4 +47,8 @@
     box-sizing: border-box;
     border-radius: 8px;
      background-color: rgb(176, 198, 238);
+}
+.question-part2 p{
+    text-align: start;
+    padding: 4px;
 }
