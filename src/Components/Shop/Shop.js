@@ -3,11 +3,18 @@ import Product from '../Product/Product';
 import './Shop.css'
 import FakeData from '../FakeData/products.json'
 import Cart from '../Cart/Cart';
+import { useState } from 'react';
 
 
 
     const Shop = () => {
+        const [cart, setCart] = useState([])
    const product = FakeData;
+   const handleAddToCart = (product) =>{
+     console.log(product)
+     const newCart = [...cart, product];
+     setCart(newCart)
+   }
     return (
         <div>
             <div className='shop-name'>
@@ -20,11 +27,14 @@ import Cart from '../Cart/Cart';
                    product.map(product =><Product
                    key ={product.id}
                    product = {product}
+                   handleAddToCart={handleAddToCart}
                    ></Product>)
                }
             </div>
             <div className='cart-container'> 
-           <Cart></Cart>
+           <Cart>
+               
+           </Cart>
             </div>
         </div>
         </div>

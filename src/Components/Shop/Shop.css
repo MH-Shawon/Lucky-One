@@ -13,6 +13,7 @@
 }
 
 .cart-container{
-    background-color: rgb(204, 130, 34);
-    
+    background-color: rgb(225, 188, 139);
+    border: 4px solid grey;
+    border-radius: 16px;
 }
