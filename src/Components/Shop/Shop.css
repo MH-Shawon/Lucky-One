@@ -21,13 +21,14 @@
 .ques-section{
     display: flex;
     padding-top: 24px;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
     text-align: center;
 }
 
 .question-part1{
     text-align: center;
     margin-left: 50px;
-    
     width: 50%;
     border: 1px solid black;
     box-sizing: border-box;
@@ -41,8 +42,7 @@
 .question-part2{
     text-align: center;
     margin-left: 50px;
-    
-    width: 50%;
+   width: 50%;
     border: 1px solid black;
     box-sizing: border-box;
     border-radius: 8px;

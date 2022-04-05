@@ -31,6 +31,7 @@ import { useState } from 'react';
                    ></Product>)
                }
             </div>
+            {/* question part */}
             <div className='cart-container'> 
            <Cart cart = {cart}></Cart>
             </div>

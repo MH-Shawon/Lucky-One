@@ -12,7 +12,11 @@ const Cart = (props) => {
         <div className='cart'>
             <h3>Order Summary</h3>
             <p>Selected Item:{cart.length}</p>
-            <p>{name}</p>
+            <p>
+                <ul>
+                    <li>{name}</li>
+                </ul>
+            </p>
             <p>Total Price:${totalPrice}</p>
             <div>
             <button>Chose One</button> <br />
