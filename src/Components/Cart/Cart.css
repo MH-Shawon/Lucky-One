@@ -3,5 +3,26 @@
     top:0;
     padding: 8px;
     text-align: center;
+}
+.chose-one{
+    font-size: medium;
+    font-weight: 600;
+    border-radius: 4px;
+    
+}
 
+.chose-one:hover{
+    background-color: chocolate;
+}
+
+
+.chose-again{
+    margin-top: 8px;
+    font-size: medium;
+    font-weight: 600;
+    border-radius: 4px;
+}
+.chose-again:hover{
+    background-color:goldenrod;
+    
 }

@@ -19,8 +19,8 @@ const Cart = (props) => {
             </p>
             <p>Total Price:${totalPrice}</p>
             <div>
-            <button>Chose One</button> <br />
-            <button>Chose Again</button>
+            <button className='chose-one'>Chose One</button> <br />
+            <button className='chose-again'  >Chose Again</button>
             </div>
         </div>
     );
